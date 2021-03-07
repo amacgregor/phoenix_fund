@@ -1,5 +1,8 @@
 # PhoenixFund
 
+![Gif of the crowdfunding app](https://imgur.com/q0L1xth.gif)
+
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
