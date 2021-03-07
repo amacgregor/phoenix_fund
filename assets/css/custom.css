@@ -1,0 +1,26 @@
+/* Auction */
+
+#auction {
+    @apply max-w-xl mx-auto text-center;
+
+button {
+    @apply bg-blue-600 mx-1 py-0 px-4 border border-cool-gray-400 border-2 rounded-lg shadow-sm transition ease-in-out duration-150 outline-none text-5xl;
+}
+
+button:hover {
+    @apply bg-green-300;
+}
+
+img {
+    @apply w-10;
+}
+
+.meter {
+    @apply flex h-24 overflow-hidden text-2xl bg-cool-gray-300 rounded-lg mb-8;
+}
+
+.meter > span {
+    @apply flex flex-col justify-center text-cool-gray-900 text-5xl text-center whitespace-nowrap bg-green-300 font-bold;
+    transition: width 2s ease;
+}
+}
